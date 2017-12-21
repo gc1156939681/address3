@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.ab.frame.PersonFrame">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="558" height="647"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="c63a9" class="javax.swing.JButton" binding="returnButton">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="返回"/>
+        </properties>
+      </component>
+      <component id="36d4c" class="javax.swing.JButton" binding="modifyButton">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="编辑"/>
+        </properties>
+      </component>
+      <component id="30bb6" class="javax.swing.JLabel" binding="profileLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="profile/10.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="bac70" class="javax.swing.JLabel" binding="nameLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="22" style="1"/>
+          <foreground color="-7705669"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="41c68" class="javax.swing.JLabel" binding="phoneNumberLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="22"/>
+          <foreground color="-10786629"/>
+          <text value="电话"/>
+        </properties>
+      </component>
+      <component id="cf5fb" class="javax.swing.JTextField" binding="phoneNumberField">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3086110"/>
+          <editable value="false"/>
+          <foreground color="-9008197"/>
+          <text value="133579"/>
+        </properties>
+      </component>
+      <component id="cc49c" class="javax.swing.JTextField" binding="infoField">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <editable value="false"/>
+          <text value="备注信息"/>
+        </properties>
+      </component>
+      <component id="90b1d" class="javax.swing.JButton" binding="confirmButton">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <text value="确认"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
